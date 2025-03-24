@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Fundas, Celulares y Accesorios</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+    
+        body {
+            background-image: url('https://a-static.besthdwallpaper.com/apple-iphone-pro-series-color-screen-wallpaper-1680x1050-95145_5.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    
+        header {
+            background-color: #938f8f;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 1rem;
+        }
+    
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+    
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+    
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    
+        .product-card img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+    
+        .product-card h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+    
+        .price {
+            color: #2ecc71;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+    
+        .btn {
+            background-color: #3498db;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+    
+        .btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Fundas - Celulares - Accesorios</h1>
+    </header>
+
+    <div class="container">
+        <h2>Nuestros Productos</h2>
+        <div class="product-grid">
+            <!-- Producto 7: Celular -->
+            <div class="product-card">
+                <img src="https://slink.com.ar/wp-content/uploads/2021/07/D_775028-MLA43222637055_082020-F.jpg" alt="iPhone">
+                <h3>Vidrio templado - Marco negro</h3>
+                <p class="price">$3.600</p>
+                <p>iPhone 11/12/13/14</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 8: Celular -->
+            <div class="product-card">
+                <img src="https://abacel.com.py/mayorista/2493-large_default/lamina-de-vidrio-templado-de-privacidad-apple-iphone-15-cb.jpg" alt="iPhone">
+                <h3>Vidrio templado Anti-Espia</h3>
+                <p class="price">$6.000</p>
+                <p>iPhone 15/15 Pro</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 11: Celular -->
+            <div class="product-card">
+                <img src="https://http2.mlstatic.com/D_984940-MLA81259902752_122024-O.jpg" alt="iPhone">
+                <h3>Protector de cámara con Strass</h3>
+                <p class="price">$4.000</p>
+                <p>iPhone 13/14/15 - Pro Max/16 - Pro - Pro Max</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 10: Celular -->
+            <div class="product-card">
+                <img src="https://mifunditamendoza.com/wp-content/uploads/2024/04/como-proteger-camara-fotos-iphone-13-pro-max.webp" alt="iPhone">
+                <h3>Protector de cámara liso</h3>
+                <p class="price">$4.000</p>
+                <p>iPhone 13/14 - Pro Max/15 - Pro Max/16 Pro - Pro Max</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 3: Funda -->
+            <div class="product-card">
+                <img src="https://http2.mlstatic.com/D_766306-MLA72038863890_102023-O.jpg" alt="Funda Resistente">
+                <h3>Promo Cabezal y Cable</h3>
+                <p class="price">$20.000</p>
+                <p>Cabezal 20W - Cable tipo C-lightning / Tipo C-C</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 4: Celular -->
+            <div class="product-card">
+                <img src="https://www.infopartes.com.ar/19597-large_default/cargador-p-iphone-111213-usb-c-carga-rapida-20w-sellado-original.jpg" alt="iPhone">
+                <h3>Cabezal 20W</h3>
+                <p class="price">$15.000</p>
+                <p></p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 5: Celular -->
+            <div class="product-card">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_879225-MLA71602899145_092023-O.webp" alt="iPhone">
+                <h3>Cable tipo C-Lightning</h3>
+                <p class="price">$8.000</p>
+                <p></p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 6: Celular -->
+            <div class="product-card">
+                <img src="https://acdn-us.mitiendanube.com/stores/001/570/838/products/d_nq_np_968912-mla43687300772_102020-o1-1e158ba5aa6ad145e716227409461210-1024-1024.jpg" alt="iPhone">
+                <h3>Cable tipo C-C</h3>
+                <p class="price">$8.000</p>
+                <p></p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 2: AirPods -->
+            <div class="product-card">
+                <img src="https://oechsle.vteximg.com.br/arquivos/ids/15748314-1000-1000/image-e3a279939bea4d1cbd1ccc42afba7076.jpg" alt="Smartphone">
+                <h3>AirPods Pro 2da Generación</h3>
+                <p class="price">$38.000</p>
+                <p>Audífonos compactos con cancelación de ruido, sonido de alta calidad, 5 horas de autonomía (24 con estuche), resistencia al agua (IPX4) y conectividad estable con dispositivos Apple.</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 1: Funda -->
+            <div class="product-card">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_752037-MLA71607953640_092023-O.webp" alt="Funda Silicona">
+                <h3>Silicone Case</h3>
+                <p class="price">$6.000</p>
+                <p>Disponible para iPhone 11/12/13</p>
+                <p><strong>*CONSULTAR COLOR*</strong></p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 9: Celular -->
+            <div class="product-card">
+                <img src="https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/117158194_01/w=1500,h=1500,fit=pad" alt="iPhone">
+                <h3>Funda MagSafe</h3>
+                <p class="price">$7.000</p>
+                <p>iPhone 11/13</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 12: Celular -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOJU9mS3pxmnIbjbfY-OxUDORugVRbcuRhJA&s" alt="iPhone">
+                <h3>Vibe Case</h3>
+                <p class="price">$8.000</p>
+                <p>iPhone 11/13/15</p>
+                <p><strong>*CONSULTAR COLOR*</strong></p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 13: Celular -->
+            <div class="product-card">
+                <img src="https://acdn-us.mitiendanube.com/stores/001/096/065/products/1-7d85a05b2607eef9e517316167896844-480-0.png" alt="iPhone">
+                <h3>Hit Case</h3>
+                <p class="price">$6.500</p>
+                <p>iPhone 13/14 - Pro/15/16 Pro - Pro Max</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 14: Celular -->
+            <div class="product-card">
+                <img src="https://acdn-us.mitiendanube.com/stores/001/096/065/products/-1408811460de81154017316164340108-1024-1024.png" alt="iPhone">
+                <h3>Fire Case</h3>
+                <p class="price">$9.500</p>
+                <p>iPhone 11</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 15: Celular -->
+            <div class="product-card">
+                <!-- Nota: La imagen en base64 es muy larga y no práctica para GitHub Pages. Recomiendo subirla como archivo al repositorio y referenciarla como <img src="images/ripple-case.jpg"> -->
+                <img src="https://via.placeholder.com/200x200.png?text=Ripple+Case" alt="iPhone">
+                <h3>Ripple Case</h3>
+                <p class="price">$7.500</p>
+                <p>iPhone 13/15</p>
+                <p><strong>*CONSULTAR COLOR*</strong></p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 16: Celular -->
+            <div class="product-card">
+                <img src="https://acdn-us.mitiendanube.com/stores/001/096/065/products/pinted-portada-70a2fd02ca972d88e517334338643621-480-0.jpeg" alt="iPhone">
+                <h3>Pinted Case</h3>
+                <p class="price">$8.000</p>
+                <p>iPhone 13/14 Pro/15/16 Pro - Pro Max</p>
+                <p><strong>*CONSULTAR COLOR*</strong></p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 17: Celular -->
+            <div class="product-card">
+                <img src="https://acdn-us.mitiendanube.com/stores/001/096/065/products/portada-lanza-4ad2fed7f92646165c17226288233981-480-0.jpg" alt="iPhone">
+                <h3>Drop Case</h3>
+                <p class="price">$8.000</p>
+                <p>iPhone 11/13</p>
+                <p><strong>*CONSULTAR COLOR*</strong></p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
